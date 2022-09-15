@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.remote-controller {
+  height: 400px;
+  width: 300px;
+  background: #2b5870;
+  border-radius: 20px;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+}
+
+.temp-display-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+}
+
+.temp-display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 50%;
+  border: 7px solid #ffffff;
+  height: 220px;
+  width: 220px;
+  font-size: 48px;
+  font-weight: 500;
+  transition: background 0.5s;
+}
+
+.button-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  color: #ffffff;
+  background: rgb(105, 104, 104);
+  border: 5px #ffffff solid;
+  font-size: 32px;
+}
+
+button:hover{
+  background: rgb(184, 184, 184);
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.neutral{
+  background: rgb(184, 184, 184);
+}
+
+.cold{
+  background: #035aa6;
+}
+
+.hot{
+  background: #ff5200;
+}
